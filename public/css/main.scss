@@ -1,0 +1,30 @@
+$theme-colors: (
+  "primary": #023757,
+  "dark": rgb(45, 59, 51)
+);
+
+$body-bg: (rgb(247, 213, 213));
+
+$jumbotron-bg: (rgb(31, 30, 30));
+$card-border-radius: (10px);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.search {
+    margin-top: 2rem;
+}
+
+#movies img {
+    width: 100%;
+}
+.card {
+    margin: 1rem 0;
+}
+
+#movie .title{
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+}
+
