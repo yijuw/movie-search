@@ -5,7 +5,6 @@ $(document).ready(() => {
         let searchText = $('#searchText').val();
         getMovies(searchText);
         e.preventDefault();
-
     })
 });
 
@@ -44,7 +43,6 @@ function getMovies(searchText){
 window.movieSelected = function movieSelected(id) {
     sessionStorage.setItem('movieId', id);
     window.location = 'movie.html';
-    return false;
 };
 
 
